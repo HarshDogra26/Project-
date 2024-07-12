@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+body{
+    background-image: url('assets/bgimage.png');
+   background-size: cover;
+}
+
+.container{
+    position: relative;
+    isolation: isolate;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    overflow: hidden;
+}
+nav{
+    padding: 2rem 0;
+    padding-inline: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.nav__links{
+  font-size: 17px;
+  margin-left: 100px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+/*body*/
+
+.content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.content p{
+    margin-bottom: 2rem;
+    columns: var(--text-light);
+    line-height: 1.75rem;
+    text-align: center;
+    margin-top: 200px;
+    color: #fff;
+}
+.card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 50px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.content {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 600px;
+}
+.dates{
+    display: flex;
+    justify-content: space-between;
+}
+
+
